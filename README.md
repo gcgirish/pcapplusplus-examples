@@ -10,5 +10,5 @@ make install
 ```
 ## Compiling
 ```shell
-g++ -I /usr/local/include/pcapplusplus/ -L /usr/local/lib/ -static-libstdc++ -o test test.cc -lPcap++ -lPacket++ -lCommon++
+g++ -I /usr/local/include/pcapplusplus/ -L /usr/local/lib/ -static-libstdc++ -o example example.cc -lPcap++ -lPacket++ -lCommon++
 ```
