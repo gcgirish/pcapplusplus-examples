@@ -2,12 +2,7 @@
 #include "EthLayer.h"
 #include "IPv4Layer.h"
 #include "VlanLayer.h"
-#include "UdpLayer.h"
-#include "IgmpLayer.h"
-#include "PayloadLayer.h"
-#include "SystemUtils.h"
 #include <stdio.h>
-#include <unistd.h>
 #include <time.h>
 #include <arpa/inet.h>
 #include <stdlib.h>
@@ -293,7 +288,7 @@ Internet Group Management Protocol
 		}
 	}
 
-	//// DHCP end /////
+	//// IGMP end /////
 
 
 	return 0;
